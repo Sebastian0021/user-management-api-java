@@ -26,22 +26,6 @@ public class UsuarioService {
     }
 
     public Usuario guardarUsuario(Usuario usuario) {
-        // Crear un nuevo conjunto de roles
-        Set<Rol> rolesValidados = new HashSet<>();
-    
-        // Iterar sobre los IDs de los roles del usuario y buscar cada rol en la base de datos
-        for (Rol rol : usuario.getRoles()) {
-            Rol rolExistente = rolRepository.findById(rol.getId())
-                .orElseThrow(() -> new RuntimeException("Rol no encontrado: " + rol.getId()));
-            
-            // Añadir el rol validado a nuestro conjunto temporal
-            rolesValidados.add(rolExistente);
-        }
-        
-        // Asignar el conjunto de roles validados al usuario antes de guardarlo
-        usuario.setRoles(rolesValidados);
-    
-        // Guardar el usuario en la base de datos
         return usuarioRepository.save(usuario);
     }
 

@@ -16,14 +16,4 @@ public class Rol {
 
     @ManyToMany(mappedBy = "roles")
     private Set<Usuario> usuarios = new HashSet<>();
-
-    public void addUsuario(Usuario usuario) {
-        this.usuarios.add(usuario);
-        usuario.getRoles().add(this);
-    }
-
-    public void removeUsuario(Usuario usuario) {
-        this.usuarios.remove(usuario);
-        usuario.getRoles().remove(this);
-    }
 }

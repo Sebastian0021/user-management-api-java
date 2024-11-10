@@ -22,14 +22,4 @@ public class Usuario {
     )
     
     private Set<Rol> roles = new HashSet<>();
-
-    public void addRol(Rol rol) {
-        this.roles.add(rol);
-        rol.getUsuarios().add(this);
-    }
-
-    public void removeRol(Rol rol) {
-        this.roles.remove(rol);
-        rol.getUsuarios().remove(this);
-    }
 }
