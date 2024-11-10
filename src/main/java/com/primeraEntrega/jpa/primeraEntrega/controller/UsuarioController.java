@@ -1,6 +1,6 @@
 package com.primeraEntrega.jpa.primeraEntrega.controller;
 
-import com.primeraEntrega.jpa.primeraEntrega.model.Usuario;
+import com.primeraEntrega.jpa.primeraEntrega.dto.UsuarioDTO;
 import com.primeraEntrega.jpa.primeraEntrega.service.UsuarioService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,17 +15,17 @@ public class UsuarioController {
     private UsuarioService usuarioService;
 
     @GetMapping
-    public List<Usuario> obtenerTodosLosUsuarios() {
+    public List<UsuarioDTO> obtenerTodosLosUsuarios() {
         return usuarioService.obtenerTodosLosUsuarios();
     }
 
     @PostMapping
-    public Usuario guardarUsuario(@RequestBody Usuario usuario) {
-        return usuarioService.guardarUsuario(usuario);
+    public UsuarioDTO guardarUsuario(@RequestBody UsuarioDTO usuarioDTO) {
+        return usuarioService.guardarUsuario(usuarioDTO);
     }
 
     @GetMapping("/{id}")
-    public Usuario obtenerUsuarioPorId(@PathVariable Long id) {
+    public UsuarioDTO obtenerUsuarioPorId(@PathVariable Long id) {
         return usuarioService.obtenerUsuarioPorId(id);
     }
 

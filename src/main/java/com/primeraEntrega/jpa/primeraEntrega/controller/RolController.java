@@ -1,6 +1,7 @@
 package com.primeraEntrega.jpa.primeraEntrega.controller;
 
-import com.primeraEntrega.jpa.primeraEntrega.model.Rol;
+import com.primeraEntrega.jpa.primeraEntrega.dto.RolDTO;
+// import com.primeraEntrega.jpa.primeraEntrega.model.Rol;
 import com.primeraEntrega.jpa.primeraEntrega.service.RolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -14,17 +15,17 @@ public class RolController {
     private RolService rolService;
 
     @GetMapping
-    public List<Rol> obtenerTodosLosRoles() {
+    public List<RolDTO> obtenerTodosLosRoles() {
         return rolService.obtenerTodosLosRoles();
     }
 
     @PostMapping
-    public Rol guardarRol(@RequestBody Rol rol) {
-        return rolService.guardarRol(rol);
+    public RolDTO guardarRol(@RequestBody RolDTO rolDTO) {
+        return rolService.guardarRol(rolDTO);
     }
 
     @GetMapping("/{id}")
-    public Rol obtenerRolPorId(@PathVariable Long id) {
+    public RolDTO obtenerRolPorId(@PathVariable Long id) {
         return rolService.obtenerRolPorId(id);
     }
 
