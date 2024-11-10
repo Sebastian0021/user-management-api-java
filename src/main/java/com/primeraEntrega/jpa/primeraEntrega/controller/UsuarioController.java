@@ -33,4 +33,15 @@ public class UsuarioController {
     public void eliminarUsuario(@PathVariable Long id) {
         usuarioService.eliminarUsuario(id);
     }
+
+    @PostMapping("/{id}/roles/{rolId}")
+    public UsuarioDTO asignarRolAUsuario(@PathVariable Long id, @PathVariable Long rolId) {
+        return usuarioService.asignarRolAUsuario(id, rolId);
+    }
+
+    // put (Anda raro)
+    @PutMapping("/{id}/roles")
+    public UsuarioDTO actualizarRolesDeUsuario(@PathVariable Long id, @RequestBody List<Long> rolIds) {
+        return usuarioService.actualizarRolesDeUsuario(id, rolIds);
+    }
 }
