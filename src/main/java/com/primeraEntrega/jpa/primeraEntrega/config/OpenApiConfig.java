@@ -24,7 +24,7 @@ public class OpenApiConfig {
                         .contact(new Contact()
                                 .name("Soporte de la API")
                                 .email("rolesyusuariosapi@gmail.com")
-                                .url("https://www.rolesyusuariosapi.com"))
+                                .url("https://www.linkedin.com/in/sebastianpenalozafuentes/"))
                         .license(new License()
                                 .name("Licencia Apache 2.0")
                                 .url("http://www.apache.org/licenses/LICENSE-2.0.html"))
@@ -34,6 +34,6 @@ public class OpenApiConfig {
                 ))
                 .externalDocs(new ExternalDocumentation()
                         .description("Documentación adicional")
-                        .url("https://www.rolesyusuariosapi.com/documentacion"));
+                        .url("https://github.com/Sebastian0021/JavaCoderHouse/tree/newdb"));
     }
 }
