@@ -30,7 +30,7 @@ Este proyecto es una API RESTful desarrollada en Java utilizando el framework Sp
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone -b newdb https://github.com/Sebastian0021/user-management-api-java.git
+    git clone [https://github.com/Sebastian0021/user-management-api-java.git](https://github.com/Sebastian0021/user-management-api-java.git)
     cd user-management-api-java
     ```
 
