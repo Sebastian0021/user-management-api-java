@@ -1,4 +1,4 @@
-package com.primeraEntrega.jpa.primeraEntrega.config;
+package com.portfolio.usermanagement.config;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;

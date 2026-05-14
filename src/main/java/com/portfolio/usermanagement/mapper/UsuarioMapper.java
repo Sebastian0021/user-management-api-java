@@ -1,7 +1,7 @@
-package com.primeraEntrega.jpa.primeraEntrega.mapper;
+package com.portfolio.usermanagement.mapper;
 
-import com.primeraEntrega.jpa.primeraEntrega.dto.UsuarioDTO;
-import com.primeraEntrega.jpa.primeraEntrega.model.Usuario;
+import com.portfolio.usermanagement.dto.UsuarioDTO;
+import com.portfolio.usermanagement.model.Usuario;
 import org.springframework.stereotype.Component;
 import java.util.stream.Collectors;
 

@@ -1,7 +1,7 @@
-package com.primeraEntrega.jpa.primeraEntrega.mapper;
+package com.portfolio.usermanagement.mapper;
 
-import com.primeraEntrega.jpa.primeraEntrega.dto.RolDTO;
-import com.primeraEntrega.jpa.primeraEntrega.model.Rol;
+import com.portfolio.usermanagement.dto.RolDTO;
+import com.portfolio.usermanagement.model.Rol;
 import org.springframework.stereotype.Component;
 import java.util.stream.Collectors;
 

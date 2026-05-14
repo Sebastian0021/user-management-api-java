@@ -1,4 +1,4 @@
-package com.primeraEntrega.jpa.primeraEntrega.model;
+package com.portfolio.usermanagement.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -1,9 +1,9 @@
-package com.primeraEntrega.jpa.primeraEntrega.service;
+package com.portfolio.usermanagement.service;
 
-import com.primeraEntrega.jpa.primeraEntrega.dto.RolDTO;
-import com.primeraEntrega.jpa.primeraEntrega.mapper.RolMapper;
-import com.primeraEntrega.jpa.primeraEntrega.model.Rol;
-import com.primeraEntrega.jpa.primeraEntrega.repository.RolRepository;
+import com.portfolio.usermanagement.dto.RolDTO;
+import com.portfolio.usermanagement.mapper.RolMapper;
+import com.portfolio.usermanagement.model.Rol;
+import com.portfolio.usermanagement.repository.RolRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

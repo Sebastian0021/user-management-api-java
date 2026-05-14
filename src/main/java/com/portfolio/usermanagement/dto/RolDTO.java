@@ -1,4 +1,4 @@
-package com.primeraEntrega.jpa.primeraEntrega.dto;
+package com.portfolio.usermanagement.dto;
 
 import lombok.Data;
 import java.util.Set;

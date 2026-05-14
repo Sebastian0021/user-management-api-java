@@ -1,8 +1,8 @@
-package com.primeraEntrega.jpa.primeraEntrega.controller;
+package com.portfolio.usermanagement.controller;
 
-import com.primeraEntrega.jpa.primeraEntrega.dto.RolDTO;
-// import com.primeraEntrega.jpa.primeraEntrega.model.Rol;
-import com.primeraEntrega.jpa.primeraEntrega.service.RolService;
+import com.portfolio.usermanagement.dto.RolDTO;
+// import com.portfolio.usermanagement.model.Rol;
+import com.portfolio.usermanagement.service.RolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

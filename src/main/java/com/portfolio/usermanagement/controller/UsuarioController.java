@@ -1,7 +1,7 @@
-package com.primeraEntrega.jpa.primeraEntrega.controller;
+package com.portfolio.usermanagement.controller;
 
-import com.primeraEntrega.jpa.primeraEntrega.dto.UsuarioDTO;
-import com.primeraEntrega.jpa.primeraEntrega.service.UsuarioService;
+import com.portfolio.usermanagement.dto.UsuarioDTO;
+import com.portfolio.usermanagement.service.UsuarioService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

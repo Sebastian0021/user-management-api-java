@@ -1,13 +1,13 @@
-package com.primeraEntrega.jpa.primeraEntrega.service;
+package com.portfolio.usermanagement.service;
 
-import com.primeraEntrega.jpa.primeraEntrega.dto.UsuarioDTO;
-import com.primeraEntrega.jpa.primeraEntrega.mapper.UsuarioMapper;
-import com.primeraEntrega.jpa.primeraEntrega.model.Rol;
-// import com.primeraEntrega.jpa.primeraEntrega.model.Rol;
-import com.primeraEntrega.jpa.primeraEntrega.model.Usuario;
-import com.primeraEntrega.jpa.primeraEntrega.repository.RolRepository;
-// import com.primeraEntrega.jpa.primeraEntrega.repository.RolRepository;
-import com.primeraEntrega.jpa.primeraEntrega.repository.UsuarioRepository;
+import com.portfolio.usermanagement.dto.UsuarioDTO;
+import com.portfolio.usermanagement.mapper.UsuarioMapper;
+import com.portfolio.usermanagement.model.Rol;
+// import com.portfolio.usermanagement.model.Rol;
+import com.portfolio.usermanagement.model.Usuario;
+import com.portfolio.usermanagement.repository.RolRepository;
+// import com.portfolio.usermanagement.repository.RolRepository;
+import com.portfolio.usermanagement.repository.UsuarioRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
